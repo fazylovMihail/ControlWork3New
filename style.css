@@ -69,7 +69,10 @@ body {
 
 .gallery__item {
     max-width: 330px;
-    position: relative;    
+    position: relative;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -83,7 +86,7 @@ body {
     bottom: 24px;
     display: flex;
     gap: 21px;
-    z-index: 5;
+    z-index: 2;
 }
 
 .image__button {
@@ -141,7 +144,7 @@ body {
     color: white;
     position: absolute;
     display: none;
-    z-index: 6;
+    z-index: 1;
 }
 .gallery__item::after{
     content: '';
